@@ -9,7 +9,7 @@ public class ArrayListTest  //查找效率高
 {
 	public static void main(String[] args)
 	{
-		ArrayList arraylist=new ArrayList();
+		ArrayList<Object> arraylist=new ArrayList<Object>();
 		arraylist.add("hello");
 		arraylist.add(56);
 		arraylist.add("ddsfs");
@@ -131,8 +131,8 @@ public class ArrayListTest  //查找效率高
 }
 class Point          //自定义类必须自定义tostring才能最正常输出
 {
-	static int x;
-	static int y;
+	 int x;
+	 int y;
 	/**
 	 * 
 	 * @param x -coordinat od x

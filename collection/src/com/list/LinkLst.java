@@ -26,10 +26,17 @@ public class LinkLst
 		 linkedlist.remove("s");
 		 System.out.println(linkedlist);
 		 
+		 Object[] o=linkedlist.toArray();
+		 System.out.println(o[3].toString());
+		 
 		 Object value=linkedlist.get(2);
 		 linkedlist.set(1,(String)value+"");
 		 System.out.println(linkedlist);
 		 
+		 for(Object obj:linkedlist)
+		 {
+			 System.out.println(obj); 
+		 }
 	}
 
 }

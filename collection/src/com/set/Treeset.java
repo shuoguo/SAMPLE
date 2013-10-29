@@ -16,7 +16,7 @@ public class Treeset
 		set.add("y");
 		System.out.println(set);
 		// -----------------------------------------------------
-		TreeSet set1 = new TreeSet(new MyComparator2());
+		TreeSet set1 = new TreeSet(new MyComparator2());//定义比较
 		// 按自定义 比较方法 顺序 排列
 		Person p1 = new Person(22);
 		Person p2 = new Person(5);

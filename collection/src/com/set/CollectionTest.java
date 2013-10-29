@@ -19,7 +19,7 @@ public class CollectionTest
 		{
 			System.out.println(list.get(i));
 		}
-
+ //  ÷ª”–list ”–≈≈–Úcollections.sort()
 		Comparator c = Collections.reverseOrder();
 		Collections.sort(list, c);
 		for (Iterator iter = list.iterator(); iter.hasNext();)

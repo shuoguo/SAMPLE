@@ -38,4 +38,9 @@ class Blink
 		this.data=data;
 	}
 	
+	public void insert(String s){
+		
+		
+		
+	}
 }

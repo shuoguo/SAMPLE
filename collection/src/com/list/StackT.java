@@ -1,6 +1,5 @@
 package com.list;
 
-import java.util.ArrayList;
 import java.util.LinkedList;
 
 public class StackT
@@ -33,7 +32,8 @@ public class StackT
 
 		System.out.println(myqueue.get());
 		System.out.println(myqueue.get());
-		System.out.println(myqueue.queue);
+		System.out.println(myqueue.queue+" "+myqueue.isEmpty());
+		
 	}
 
 }
